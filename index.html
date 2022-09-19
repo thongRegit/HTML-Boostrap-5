@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header w-100 top-0 start-0">
+        <div class="header-nav w-100">
+            <div class="container d-flex h-100 align-items-center position-relative">
+                <div class="toggle d-lg-none ">
+                    <button class="btn-toggle p-0 border-0">
+                        <img src="./asset/img/ToggleButton.png" alt="">
+                    </button>
+                </div>
+                <div class="header-logo d-flex">
+                    <img src="./asset/img/logo.png" alt="logo-company" class="img-name-company">
+                    <p class="name-company my-auto mx-0">RT-Blogs</p>
+                </div>
+                <div class="header-search position-relative my-auto mx-0">
+                    <form class="position-relative">
+                        <input type="text" id="tab-search" placeholder="Seach Blog" name="tab-search" class="tab-search position-relative w-100 h-100 my-auto mx-0">
+                        <button class="btn-search position-absolute h-100 border-0 top-0 end-0 " type="submit">
+                            <img src="./asset/img/icon-search.png" alt="icon-search" class="position-absolute top-50 end-0">
+                        </button>
+                    </form>
+                </div>
+                <div class="header-btn position-absolute">
+                    <button class="btn-top text-center p-0 border-0">
+                        Top
+                    </button>
+                    <button class="btn-create-blog text-center p-0 border-0">
+                        Create Blog
+                    </button>
+                </div>
+                <div class="header-account position-absolute end-0 py-0 px-auto">
+                    <div class="name-account d-inline align-middle">myname</div>
+                    <button class="btn-account p-0 border-0">
+                        <img src="./asset/img/icon-account.png" alt="button-account" class="w-100 h-100">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thumbnail ">
+        <img src="./asset/img/thumbnail.png" alt="button-thumbnail" class="w-100">
+    </div>
+    <div class="title position-relative w-100">
+        <div class="container">
+            <div class="grid">
+                <h1 class="g-col-lg-11 g-col-11">List Blog</h1>
+                <select class="g-col-lg-1 g-col-1">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="grid">
+                <div class="post g-col-lg-4 g-col-12">
+                    <img class="background w-100" src="./asset/img/content.png" alt="">
+                    <div class="post-content">
+                        <div class="creater">
+                            <img class="icon-name" src="./asset/img/icon_name_1.png" alt="icon-name">
+                            <p class="text-name text-center">Jimmy Nguyen</p>
+                            <img class="icon-time" src="./asset/img/icon_clock.png" alt="icon-clock" />
+                            <p class="text-time">3 mins ago</p>
+                        </div>
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                        <p>Lorem ipsum dolor sit amet, conconsectetur adipiscing elit.</p>
+                        <button class="btn align-items-center">
+                            <span>Read more</span>
+                            <img src="./asset/img/Vector.png" alt="" class="m-0">
+                        </button>
+                    </div>
+                </div>
+                <div class="post g-col-lg-4 g-col-12">
+                    <img class="background w-100" src="./asset/img/content.png" alt="">
+                    <div class="post-content">
+                        <div class="creater">
+                            <img class="icon-name" src="./asset/img/icon_name_1.png" alt="icon-name">
+                            <p class="text-name">Jimmy Nguyen</p>
+                            <img class="icon-time" src="./asset/img/icon_clock.png" alt="icon-clock" />
+                            <p class="text-time">3 mins ago</p>
+                        </div>
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                        <p>Lorem ipsum dolor sit amet, conconsectetur adipiscing elit.</p>
+                        <button class="btn align-items-center">
+                            <span>Read more</span>
+                            <img src="./asset/img/Vector.png" alt="" class="m-0">
+                        </button>
+                    </div>
+                </div>
+                <div class="post g-col-lg-4 g-col-12">
+                    <img class="background w-100" src="./asset/img/content.png" alt="">
+                    <div class="post-content">
+                        <div class="creater">
+                            <img class="icon-name" src="./asset/img/icon_name_1.png" alt="icon-name">
+                            <p class="text-name">Jimmy Nguyen</p>
+                            <img class="icon-time" src="./asset/img/icon_clock.png" alt="icon-clock" />
+                            <p class="text-time">3 mins ago</p>
+                        </div>
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                        <p>Lorem ipsum dolor sit amet, conconsectetur adipiscing elit.</p>
+                        <button class="btn align-items-center">
+                            <span>Read more</span>
+                            <img src="./asset/img/Vector.png" alt="" class="m-0">
+                        </button>
+                    </div>
+                </div>
+                <div class="post g-col-lg-4 g-col-12">
+                    <img class="background w-100" src="./asset/img/content.png" alt="">
+                    <div class="post-content">
+                        <div class="creater">
+                            <img class="icon-name" src="./asset/img/icon_name_1.png" alt="icon-name">
+                            <p class="text-name">Jimmy Nguyen</p>
+                            <img class="icon-time" src="./asset/img/icon_clock.png" alt="icon-clock" />
+                            <p class="text-time">3 mins ago</p>
+                        </div>
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                        <p>Lorem ipsum dolor sit amet, conconsectetur adipiscing elit.</p>
+                        <button class="btn align-items-center">
+                            <span>Read more</span>
+                            <img src="./asset/img/Vector.png" alt="" class="m-0">
+                        </button>
+                    </div>
+                </div>
+                <div class="post g-col-lg-4 g-col-12">
+                    <img class="background w-100" src="./asset/img/content.png" alt="">
+                    <div class="post-content">
+                        <div class="creater">
+                            <img class="icon-name" src="./asset/img/icon_name_1.png" alt="icon-name">
+                            <p class="text-name">Jimmy Nguyen</p>
+                            <img class="icon-time" src="./asset/img/icon_clock.png" alt="icon-clock" />
+                            <p class="text-time">3 mins ago</p>
+                        </div>
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                        <p>Lorem ipsum dolor sit amet, conconsectetur adipiscing elit.</p>
+                        <button class="btn align-items-center">
+                            <span>Read more</span>
+                            <img src="./asset/img/Vector.png" alt="" class="m-0">
+                        </button>
+                    </div>
+                </div>
+                <div class="post g-col-lg-4 g-col-12">
+                    <img class="background w-100" src="./asset/img/content.png" alt="">
+                    <div class="post-content">
+                        <div class="creater">
+                            <img class="icon-name" src="./asset/img/icon_name_1.png" alt="icon-name">
+                            <p class="text-name">Jimmy Nguyen</p>
+                            <img class="icon-time" src="./asset/img/icon_clock.png" alt="icon-clock" />
+                            <p class="text-time">3 mins ago</p>
+                        </div>
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                        <p>Lorem ipsum dolor sit amet, conconsectetur adipiscing elit.</p>
+                        <button class="btn align-items-center">
+                            <span>Read more</span>
+                            <img src="./asset/img/Vector.png" alt="" class="m-0">
+                        </button>
+                    </div>
+                </div>
+                <div class="post g-col-lg-4 g-col-12">
+                    <img class="background w-100" src="./asset/img/content.png" alt="">
+                    <div class="post-content">
+                        <div class="creater">
+                            <img class="icon-name" src="./asset/img/icon_name_1.png" alt="icon-name">
+                            <p class="text-name">Jimmy Nguyen</p>
+                            <img class="icon-time" src="./asset/img/icon_clock.png" alt="icon-clock" />
+                            <p class="text-time">3 mins ago</p>
+                        </div>
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                        <p>Lorem ipsum dolor sit amet, conconsectetur adipiscing elit.</p>
+                        <button class="btn align-items-center">
+                            <span>Read more</span>
+                            <img src="./asset/img/Vector.png" alt="" class="m-0">
+                        </button>
+                    </div>
+                </div>
+                <div class="post g-col-lg-4 g-col-12">
+                    <img class="background w-100" src="./asset/img/content.png" alt="">
+                    <div class="post-content">
+                        <div class="creater">
+                            <img class="icon-name" src="./asset/img/icon_name_1.png" alt="icon-name">
+                            <p class="text-name">Jimmy Nguyen</p>
+                            <img class="icon-time" src="./asset/img/icon_clock.png" alt="icon-clock" />
+                            <p class="text-time">3 mins ago</p>
+                        </div>
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                        <p>Lorem ipsum dolor sit amet, conconsectetur adipiscing elit.</p>
+                        <button class="btn align-items-center">
+                            <span>Read more</span>
+                            <img src="./asset/img/Vector.png" alt="" class="m-0">
+                        </button>
+                    </div>
+                </div>
+                <div class="post g-col-lg-4 g-col-12">
+                    <img class="background w-100" src="./asset/img/content.png" alt="">
+                    <div class="post-content">
+                        <div class="creater">
+                            <img class="icon-name" src="./asset/img/icon_name_1.png" alt="icon-name">
+                            <p class="text-name">Jimmy Nguyen</p>
+                            <img class="icon-time" src="./asset/img/icon_clock.png" alt="icon-clock" />
+                            <p class="text-time">3 mins ago</p>
+                        </div>
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                        <p>Lorem ipsum dolor sit amet, conconsectetur adipiscing elit.</p>
+                        <button class="btn align-items-center">
+                            <span>Read more</span>
+                            <img src="./asset/img/Vector.png" alt="" class="m-0">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pagination">
+        <div class="container">
+            <ul class="d-flex justify-content-center p-0 align-items-center">
+                <button class="btn-previous border-0"><i class="fa-solid fa-chevron-left"></i></button>
+                <li class="pagination-number position-relative text-center overflow-hidden"><a href="#" class="position-absolute top-50 start-50 text-decoration-none">1</a></li>
+                <li class="pagination-number position-relative text-center overflow-hidden"><a href="#" class="position-absolute top-50 start-50 text-decoration-none">2</a></li>
+                <li class="pagination-number position-relative text-center overflow-hidden active"><a href="#" class="position-absolute top-50 start-50 text-decoration-none">3</a></li>
+                <li class="pagination-number position-relative text-center overflow-hidden"><a href="#" class="position-absolute top-50 start-50 text-decoration-none">4</a></li>
+                <li class="pagination-number position-relative text-center overflow-hidden"><a href="#" class="position-absolute top-50 start-50 text-decoration-none">5</a></li>
+                <li class="pagination-number position-relative text-center overflow-hidden"><a href="#" class="position-absolute top-50 start-50 text-decoration-none">6</a></li>
+                <button class="btn-next border-0"><i class="fa-solid fa-chevron-right"></i></button>
+            </ul>
+        </div>
+    </div>
+    <footer class="w-100 b-0 align-items-center justify-content-center">
+        Copyright 2022. Made by Regit JSC
+    </footer>
+    <script src="./asset/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
